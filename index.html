@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!--
+	CWB205
+	War Game
+    Author: Michael Dryburgh
+    Date: 12/08/2014
+-->
+<title>War Start Page</title>
+<link href='http://fonts.googleapis.com/css?family=Black+Ops+One' rel='stylesheet' type='text/css'>
+<link href="warStyles.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="cookies.js"></script>
+<script type="text/javascript" src="start.js"></script>
+</head>
+<body>
+<header>
+WAR
+</header>
+<h1>Rules:</h1>
+<p>War is a two player card game. The goal is to obtain the entire deck from your opponent. Each player is dealt half of a shuffled 52 card playing card deck. To start, each player will flip over their first card. The player with the highest card then adds both of the played cards (theirs and their opponents) to their deck. Suits do not matter in this game. In the case of a tie a 'war' is declared and each player then places their next three cards face down followed by a face up card. The higher valued of the two players face up cards is then declared the winner of that war and that player gets all of the cards from the war. If the war is also a tie another war is played on top of that war and so on until a winner of the war can be declared. If by chance the players run out of cards they compare their last cards and the winner of that wins the game. If the final match up is a tie then the game is a draw. The player who gets all of the cards from their opponent is declared the victor.</p>
+<form name="entryForm" method="post" id="entry"><table>
+  <tbody>
+    <tr>
+      <td>Enter Name:<br>
+      <input name="name" type="text" id="name" title="Enter Name" size="50" maxlength="50"></td>
+    </tr>
+    <tr>
+      <td><input name="play" type="button" id="play" title="Press to start game" value="Play / Start"></td>
+    </tr>
+    <tr>
+      <td><input name="stats" type="button" id="stats" title="See Stats" value="See Stats"></td>
+    </tr>
+  </tbody>
+</table>
+</form>
+</body>
+</html>

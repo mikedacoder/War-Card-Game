@@ -1,0 +1,122 @@
+@charset "utf-8";
+body {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: 16px;
+	text-align: left;
+}
+header {
+	font-family: "Black Ops One", "Times New Roman", serif;
+	font-size: 96px;
+	color: #104E10;
+	text-align: center;
+}
+form {
+	text-align: center;
+	margin: 20px;
+}
+#play {
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+#stats {
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+#entry td {
+	text-align: left;
+	font-weight: bold;
+}
+#name {
+
+}
+
+#table {
+	background-color: #104E10;
+	border: 10px solid #000000;
+	border-radius: 25px;
+	width: 80%;
+	height: 600px;
+	float: left;
+}
+h1 {
+	margin: 20px;
+}
+p {
+	margin: 20px;
+}
+#table p {
+	text-align: center;
+	color: #000000;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#table div {
+	margin-top: 8px;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-bottom: 8px;
+}
+#table #cpuDeck , #table #playerDeck{
+	border-radius: 10px;
+	border: 5px solid #FFFFFF;
+	clear: left;
+	display: inline-block;
+	float: left;
+	width: 71px;
+	height: 96px;
+}
+#table .playArea {
+	width: 71px;
+	border-radius: 10px;
+	border: 5px solid #FFFFFF;
+	height: 96px;
+	float: left;
+	clear: left;
+}
+#display {
+	text-align: center;
+	font-size: 20px;
+	float: right;
+}
+.deckSize {
+	display: inline;
+	float: left;
+	padding-top: 90px;
+}
+#playerName {
+	clear: left;
+}
+.warArea {
+	display: inline;
+	border-radius: 10px;
+	border: 5px solid #FFFFFF;
+	width: 71px;
+	height: 96px;
+	float: left;
+}
+#playAgain {
+	display: inline;
+	float: left;
+	margin: 25px;
+	clear: right;
+}
+.displayBtns {
+	width: 150px;
+	height: 50px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: 16px;
+	font-weight: bold;
+	float: left;
+	clear: right;
+}
+hr {
+	background-color: #104E10;
+	height: 10px;
+}
